@@ -318,6 +318,44 @@ nav {
   border: 1px solid rgba(128, 128, 128, 0.252);
 }
 
+/*-------------------------STEPS------------------------ */
+
+.steps__container {
+  display: flex;
+  padding: 96px 0;
+}
+
+.steps__left {
+  width: 45%;
+  /* background-color: lightgreen; */
+}
+
+.steps__left--img {
+  width: 100%;
+}
+
+.steps__right {
+  width: 55%;
+  /* background-color: lightblue; */
+}
+
+.steps__right--subtitle {
+  padding: 16px 0;
+  font-size: 40px;
+}
+
+.steps__right--content {
+  display: flex;
+}
+
+.steps__right--sub-content {
+  max-width: 60%;
+}
+
+.steps__right--content h1 {
+  font-size: 36px;
+}
+
 /*-------------------MEDIA QUERY------------------------ */
 
 /* TABLET */
