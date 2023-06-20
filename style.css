@@ -310,6 +310,7 @@ nav {
   border: none;
   color: white;
   font-weight: bolder;
+  cursor: pointer;
 }
 
 .quality-work__right {
@@ -379,6 +380,8 @@ nav {
 .steps__right--content h1 {
   font-size: 36px;
 }
+
+/*-------------------------VALUES------------------------ */
 
 .values__container {
   display: flex;
@@ -462,6 +465,40 @@ nav {
   color: white;
   font-weight: bolder;
   margin: 48px 0;
+  cursor: pointer;
+}
+
+/*-------------------------PRICING------------------------ */
+.pricing__container {
+  padding: 96px 0;
+}
+
+.pricing__header {
+  text-align: center;
+}
+
+.pricing__header--subtitle {
+  padding: 24px 0;
+  font-size: 40px;
+}
+
+.pricing__header--para {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.pricing__cards--container {
+  margin: 32px 0;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: lightcyan;
+}
+
+.pricing__cards {
+  border-radius: 10px;
+  border: 1px solid black;
+  border-top: 10px solid red;
+  width: 30%;
 }
 
 /*-------------------MEDIA QUERY------------------------ */
@@ -707,6 +744,7 @@ nav {
 
   .quality-work__btn {
     margin: 12px auto;
+    /* cursor: pointer; */
   }
 
   .quality-work__right {
