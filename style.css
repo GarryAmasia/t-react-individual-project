@@ -494,19 +494,20 @@ nav {
 .pricing__cards--container {
   margin: 32px 0;
   display: flex;
-  justify-content: space-between;
-  /* justify-content: center; */
+
+  /* justify-content: space-between; */
+  justify-content: center;
   /* background-color: lightcyan; */
 }
 
 .pricing__cards {
   border-radius: 10px;
   border: 1px solid rgba(220, 220, 220, 0.972);
-  width: 27%;
+  width: 30%;
   margin: 16px 32px 0 0;
 }
 
-.blue__border {
+.green__border {
   border-top: 7px solid rgb(56, 178, 172);
 }
 .tomato__border {
@@ -544,6 +545,43 @@ nav {
 .pricing__cards--title,
 .pricing__cards--content {
   border-bottom: 2px solid rgba(189, 189, 189, 0.497);
+}
+
+.pricing__cards--btn {
+  padding: 16px 64px;
+  border: none;
+  border-radius: 100px;
+  cursor: pointer;
+  transition: all 200ms ease-in-out;
+}
+
+.pricing__cards--btn:hover {
+  transform: translate(3px, -3px);
+  box-shadow: 0px 3px 7px rgb(129, 129, 129);
+}
+
+.pricing__btn--gradient-green {
+  background: linear-gradient(
+    115deg,
+    rgb(56, 178, 172) 0%,
+    rgb(129, 230, 217) 100%
+  );
+}
+
+.pricing__btn--gradient-tomato {
+  background: linear-gradient(
+    115deg,
+    rgb(245, 101, 101) 0%,
+    rgb(254, 178, 178) 100%
+  );
+}
+.pricing__text-white {
+  color: white;
+  font-weight: 700;
+}
+
+.pricing__font-weight {
+  font-weight: 700;
 }
 
 /*-------------------MEDIA QUERY------------------------ */
@@ -720,6 +758,25 @@ nav {
     margin-right: auto;
     margin-left: auto;
   }
+
+  .pricing__cards--container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .pricing__cards {
+    width: 60%;
+    margin: 24px auto;
+  }
+
+  .pricing__header--subtitle {
+    font-size: 32px;
+  }
+
+  .pricing__header--para {
+    font-size: 14px;
+    width: 100%;
+  }
 }
 
 /* MOBILE PHONE */
@@ -829,5 +886,24 @@ nav {
 
   .steps__right--content {
     flex-direction: column;
+  }
+
+  .pricing__cards--container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .pricing__cards {
+    width: 70%;
+    margin: 24px auto;
+  }
+
+  .pricing__header--subtitle {
+    font-size: 32px;
+  }
+
+  .pricing__header--para {
+    font-size: 14px;
+    width: 100%;
   }
 }
