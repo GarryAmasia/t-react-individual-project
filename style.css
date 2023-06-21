@@ -42,6 +42,10 @@ body {
   color: white;
 }
 
+.i-color {
+  color: rgb(255, 220, 45);
+}
+
 /*-------------------NAV------------------------ */
 
 nav {
@@ -591,6 +595,8 @@ nav {
 
 .testimonials__left {
   width: 40%;
+  display: flex;
+  align-items: center;
 }
 
 .testimonials__img--wrapper {
@@ -607,7 +613,60 @@ nav {
 }
 
 .testimonials__right--slider {
-  background-color: lightblue;
+  /* background-color: lightblue; */
+}
+
+.testimonials__right--star {
+  margin-bottom: 8px;
+}
+
+.testimonials__right--title {
+  font-size: 20px;
+}
+
+.testimonials__right--para-david {
+  margin: 16px 0;
+}
+
+.testimonials__right--subtitle {
+  margin: 16px 0;
+  font-size: 40px;
+}
+
+.testimonials__right--para {
+  margin: 24px 0 32px 0;
+  font-size: 18px;
+}
+
+.testimonials__right--person {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.testimonials__person--wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 55%;
+}
+
+.testimonials__right--img-wrapper {
+  width: 70px;
+  height: 70px;
+}
+
+.testimonials__right--img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+.testimonials__btn {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
 }
 
 /*-------------------MEDIA QUERY------------------------ */
