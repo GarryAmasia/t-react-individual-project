@@ -584,6 +584,32 @@ nav {
   font-weight: 700;
 }
 
+.testimonials__container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.testimonials__left {
+  width: 40%;
+}
+
+.testimonials__img--wrapper {
+  width: 100%;
+  /* background-color: red; */
+}
+
+.testimonials__img {
+  width: 100%;
+}
+
+.testimonials__right {
+  width: 50%;
+}
+
+.testimonials__right--slider {
+  background-color: lightblue;
+}
+
 /*-------------------MEDIA QUERY------------------------ */
 
 /* TABLET */
