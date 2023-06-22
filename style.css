@@ -610,22 +610,21 @@ nav {
   width: 100%;
 }
 
+.testimonials__right--container {
+  overflow: hidden;
+}
+
 .testimonials__right {
   width: 50%;
 }
 
 .testimonials__right--slider {
   display: flex;
-  /* overflow: hidden; */
 
-  background-color: lightblue;
+  /* background-color: lightblue; */
 }
 
 .testimonials__right--one {
-  min-width: 100%;
-}
-
-.testimonials__right--first {
   min-width: 100%;
 }
 
@@ -661,7 +660,6 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 55%;
 }
 
 .testimonials__right--img-wrapper {
@@ -672,6 +670,10 @@ nav {
 .testimonials__right--img {
   width: 100%;
   border-radius: 50%;
+}
+
+.david {
+  margin-left: 10px;
 }
 
 .testimonials__btn {
