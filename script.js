@@ -2,7 +2,7 @@ const carouselSlide = document.querySelector(".testimonials__right--slider");
 const carouselDiv = document.querySelectorAll(
   ".testimonials__right--slider .testimonials__right--one"
 );
-console.log(carouselDiv);
+// console.log(carouselDiv);
 const prevBtn = document.querySelectorAll(".prevBtn");
 const nextBtn = document.querySelectorAll(".nextBtn");
 // console.log(nextBtn);
@@ -50,4 +50,15 @@ carouselSlide.addEventListener("transitionend", () => {
     counter = carouselDiv.length - 2;
     carouselSlide.style.transform = `translateX(${-size * counter}px)`;
   }
+});
+
+//accordion
+const accordions = document.querySelectorAll(".accordion__wrapper .accordion");
+console.log(accordions);
+
+accordions.forEach((accordion) => {
+  console.log(accordion);
+  accordion.onclick = () => {
+    accordion.classList.toggle("active");
+  };
 });
