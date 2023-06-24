@@ -5,7 +5,6 @@ const carouselDiv = document.querySelectorAll(
 // console.log(carouselDiv);
 const prevBtn = document.querySelectorAll(".prevBtn");
 const nextBtn = document.querySelectorAll(".nextBtn");
-// console.log(nextBtn);
 
 //initial counter set as 1
 let counter = 1;
