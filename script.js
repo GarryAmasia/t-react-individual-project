@@ -1,3 +1,18 @@
+const hamburgerBtn = document.querySelector(".btn__menu");
+const closeBtn = document.querySelector(".nav__link--close");
+const nav__links = document.querySelector(".nav__links");
+const nav__container = document.querySelector(".nav__container");
+
+closeBtn.addEventListener("click", () => {
+  console.log(`close button is clicked`);
+  nav__links.classList.remove("active");
+});
+
+hamburgerBtn.addEventListener("click", () => {
+  console.log(`hamburger button is clicked`);
+  nav__links.classList.toggle("active");
+});
+
 const carouselSlide = document.querySelector(".testimonials__right--slider");
 const carouselDiv = document.querySelectorAll(
   ".testimonials__right--slider .testimonials__right--one"
