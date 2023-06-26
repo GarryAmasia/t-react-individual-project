@@ -938,6 +938,10 @@ nav {
   margin: 0 8px;
 }
 
+.footer__wrapper a:hover {
+  text-decoration: underline;
+}
+
 /*-------------------MEDIA QUERY------------------------ */
 
 /* TABLET */
@@ -988,7 +992,7 @@ nav {
     display: block;
     position: absolute;
     top: 10px;
-    left: 95%;
+    left: 90%;
   }
 
   .header__wrapper {
