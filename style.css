@@ -62,6 +62,10 @@ nav {
   /* background-color: tomato; */
 }
 
+#landing {
+  overflow: hidden;
+}
+
 .nav__container {
   display: flex;
   justify-content: space-between;
@@ -948,6 +952,10 @@ nav {
 @media (max-width: 768px) {
   .btn__menu {
     display: block;
+  }
+
+  #landing {
+    overflow: hidden;
   }
 
   .nav__container {
